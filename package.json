@@ -1,8 +1,7 @@
 {
-   "homepage": "https://guna9894643135.github.io/Kairaa_React_App/",
+   "homepage": "https://GUNA9894643135.github.io/kairaa",
    "name": "mld",
-   "version": "0.1.0",
-   "private": true,
+   "version": "0.1.0",   
    "dependencies": {
       "@testing-library/jest-dom": "^5.16.1",
       "@testing-library/react": "^12.1.2",
@@ -22,11 +21,12 @@
    },
    "scripts": {
       "start": "react-scripts start",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
       "build": "react-scripts build",
       "test": "react-scripts test",
-      "eject": "react-scripts eject",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build"
+      "eject": "react-scripts eject"
+      
    },
    "eslintConfig": {
       "extends": [
